@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Redis_ASP.NET\\RedisInMemory\\IDistributedCacheRedisApp.Web\\wwwroot\\images\\araba.png",
+      "PackagePath": "staticwebassets\\images\\araba.png"
+    },
+    {
       "Id": "D:\\Redis_ASP.NET\\RedisInMemory\\IDistributedCacheRedisApp.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

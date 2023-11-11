@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ghKIGdL9o2xm0xutBXzmy3DYQWqfWE5h27MHDdcA/CI=",
+  "Hash": "gtLXxsTQLg1e2MDtlFf2lwc+yTl9QJTg7jhbvoDGo2I=",
   "Source": "IDistributedCacheRedisApp.Web",
   "BasePath": "_content/IDistributedCacheRedisApp.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Redis_ASP.NET\\RedisInMemory\\IDistributedCacheRedisApp.Web\\wwwroot\\images\\araba.png",
+      "SourceId": "IDistributedCacheRedisApp.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Redis_ASP.NET\\RedisInMemory\\IDistributedCacheRedisApp.Web\\wwwroot\\",
+      "BasePath": "_content/IDistributedCacheRedisApp.Web",
+      "RelativePath": "images/araba.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\araba.png"
     },
     {
       "Identity": "D:\\Redis_ASP.NET\\RedisInMemory\\IDistributedCacheRedisApp.Web\\wwwroot\\js\\site.js",

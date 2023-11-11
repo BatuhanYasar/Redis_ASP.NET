@@ -103,5 +103,28 @@ namespace IDistributedCacheRedisApp.Web.Controllers
 
         }
 
+
+        public IActionResult ImageUrl()
+        {
+            byte[] resimByte = _distributedCache.Get("resim");
+
+            return File(resimByte, "image/png");
+        }
+
+
+        // Image Cache'liyoruz.
+        public IActionResult ImageCache() 
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/araba.png"); // Görselimizin adres yolu.
+
+            byte[] imageByte =System.IO.File.ReadAllBytes(path); //byte[] kullanıyoruz.
+
+            _distributedCache.Set("resim", imageByte); // Cache etmek için set ediyoruz.
+
+           return View();
+        }
+
+
+
     }
 }
