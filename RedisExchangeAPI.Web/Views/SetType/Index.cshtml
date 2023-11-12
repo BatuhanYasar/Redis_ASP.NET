@@ -1,0 +1,17 @@
+﻿@model HashSet<string>
+
+<a asp-action="DeleteFirstItem" class="btn btn-danger" style="margin-bottom: 2px;"> Baştan Sil </a>
+
+<form method="post" asp-action="Add" enctype="application/x-www-form-urlencoded">
+
+    <input type="text" name="name" />
+
+    <button type="submit">Kaydet</button>
+</form>
+
+<h1 style="margin-top: 3px;">Caclediğimiz değerleri Gösteren Liste</h1>
+@foreach (var item in Model)
+{
+    <h2 style="margin-top: 2px;">@item <a asp-action="DeleteItem" asp-route-name="@item">Sil</a></h2>
+    // name ismi DeleteItem(string name) kısmındaki değişken name'dir.'
+}
